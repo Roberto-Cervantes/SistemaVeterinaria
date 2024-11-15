@@ -134,3 +134,4 @@ C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\Sistema
 C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\SistemaVeterinaria.pdb
 C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\SistemaVeterinaria.genruntimeconfig.cache
 C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\ref\SistemaVeterinaria.dll
+C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\SistemaVeterinaria.sourcelink.json

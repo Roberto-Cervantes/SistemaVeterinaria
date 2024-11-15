@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\user\\documents\\visualstudioprojects\\proyecto\\sistemaveterinaria\\sistemaveterinaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\user\\documents\\visualstudioprojects\\proyecto\\sistemaveterinaria\\sistemaveterinaria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,32 +46,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Program.cs",
-              "RelativeDocumentMoniker": "SistemaVeterinaria\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Program.cs",
-              "RelativeToolTip": "SistemaVeterinaria\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAowAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T05:36:39.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\appsettings.json",
-              "RelativeDocumentMoniker": "SistemaVeterinaria\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\appsettings.json",
-              "RelativeToolTip": "SistemaVeterinaria\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-14T05:34:36.409Z",
-              "EditorCaption": ""
             }
           ]
         },
