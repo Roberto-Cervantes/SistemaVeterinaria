@@ -4,13 +4,12 @@ using SistemaVeterinaria.Models;
 
 namespace SistemaVeterinaria.Controllers
 {
-    public class ClientesController :Controller
+    public class SeguimientoReclamosController : Controller
     {
-
 
         private readonly ProyectContext _context;
 
-        public ClientesController(ProyectContext context)
+        public SeguimientoReclamosController(ProyectContext context)
         {
             _context = context;
         }
@@ -18,7 +17,7 @@ namespace SistemaVeterinaria.Controllers
         #region CRUD
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Clientes.ToListAsync());
+            return View(await _context.SeguimientoReclamos.ToListAsync());
         }
 
 
@@ -29,14 +28,14 @@ namespace SistemaVeterinaria.Controllers
                 return NotFound();
             }
 
-            var clientes = await _context.Clientes
-                .FirstOrDefaultAsync(m => m.IdCliente == id);
-            if (clientes == null)
+            var seguimientoreclamos = await _context.SeguimientoReclamos
+                .FirstOrDefaultAsync(m => m.IdSeguimiento  == id);
+            if (seguimientoreclamos == null)
             {
                 return NotFound();
             }
 
-            return View(clientes);
+            return View(seguimientoreclamos);
         }
 
 
@@ -48,16 +47,15 @@ namespace SistemaVeterinaria.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdCliente, Nombre, Direccion, Telefono," +
-            "Correo, FechaRegistro, Activo")] Clientes clientes)
+        public async Task<IActionResult> Create([Bind("")] SeguimientoReclamosController seguimientoreclamos)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(clientes);
+                _context.Add(seguimientoreclamos);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(clientes);
+            return View(seguimientoreclamos);
         }
 
 
@@ -68,21 +66,20 @@ namespace SistemaVeterinaria.Controllers
                 return NotFound();
             }
 
-            var clientes = await _context.Clientes.FindAsync(id);
-            if (clientes == null)
+            var seguimientoreclamos = await _context.SeguimientoReclamos.FindAsync(id);
+            if (seguimientoreclamos == null)
             {
                 return NotFound();
             }
-            return View(clientes);
+            return View(seguimientoreclamos);
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdCliente, Nombre, Direccion, Telefono," +
-            "Correo, FechaRegistro, Activo")] Clientes clientes)
+        public async Task<IActionResult> Edit(int id, [Bind("")] SeguimientoReclamos seguimientoreclamos)
         {
-            if (id != clientes.IdCliente)
+            if (id != seguimientoreclamos.IdSeguimiento )
             {
                 return NotFound();
             }
@@ -91,12 +88,12 @@ namespace SistemaVeterinaria.Controllers
             {
                 try
                 {
-                    _context.Update(clientes);
+                    _context.Update(seguimientoreclamos);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!EventoExists(clientes.IdCliente))
+                    if (!EventoExists(seguimientoreclamos.IdSeguimiento ))
                     {
                         return NotFound();
                     }
@@ -107,7 +104,7 @@ namespace SistemaVeterinaria.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(clientes);
+            return View(seguimientoreclamos);
         }
 
 
@@ -118,14 +115,14 @@ namespace SistemaVeterinaria.Controllers
                 return NotFound();
             }
 
-            var clientes = await _context.Clientes
-                .FirstOrDefaultAsync(m => m.IdCliente == id);
-            if (clientes == null)
+            var seguimientoreclamos = await _context.SeguimientoReclamos
+                .FirstOrDefaultAsync(m => m.IdSeguimiento  == id);
+            if (seguimientoreclamos == null)
             {
                 return NotFound();
             }
 
-            return View(clientes);
+            return View(seguimientoreclamos);
         }
 
 
@@ -133,25 +130,22 @@ namespace SistemaVeterinaria.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var clientes = await _context.Clientes.FindAsync(id);
-            if (clientes != null)
+            var seguimientoreclamos = await _context.SeguimientoReclamos.FindAsync(id);
+            if (seguimientoreclamos != null)
             {
-                _context.Clientes.Remove(clientes);
+                _context.SeguimientoReclamos.Remove(seguimientoreclamos);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool EventoExists(int idClientes)
+        private bool EventoExists(int IdSeguimiento )
         {
-            return _context.Clientes.Any(e => e.IdCliente == idClientes);
+            return _context.SeguimientoReclamos.Any(e => e.IdSeguimiento  == IdSeguimiento );
         }
 
         #endregion
-
-
-
 
     }
 }

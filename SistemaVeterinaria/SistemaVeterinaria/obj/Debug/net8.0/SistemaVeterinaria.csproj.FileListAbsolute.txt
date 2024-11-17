@@ -118,6 +118,7 @@ C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\Sistema
 C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\SistemaVeterinaria.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\SistemaVeterinaria.RazorAssemblyInfo.cache
 C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\SistemaVeterinaria.RazorAssemblyInfo.cs
+C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\SistemaVeterinaria.sourcelink.json
 C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\staticwebassets\msbuild.SistemaVeterinaria.Microsoft.AspNetCore.StaticWebAssets.props
@@ -134,4 +135,3 @@ C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\Sistema
 C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\SistemaVeterinaria.pdb
 C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\SistemaVeterinaria.genruntimeconfig.cache
 C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\ref\SistemaVeterinaria.dll
-C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\obj\Debug\net8.0\SistemaVeterinaria.sourcelink.json

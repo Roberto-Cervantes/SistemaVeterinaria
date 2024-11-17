@@ -4,13 +4,12 @@ using SistemaVeterinaria.Models;
 
 namespace SistemaVeterinaria.Controllers
 {
-    public class ClientesController :Controller
+    public class PermisosController : Controller
     {
-
 
         private readonly ProyectContext _context;
 
-        public ClientesController(ProyectContext context)
+        public PermisosController(ProyectContext context)
         {
             _context = context;
         }
@@ -18,7 +17,7 @@ namespace SistemaVeterinaria.Controllers
         #region CRUD
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Clientes.ToListAsync());
+            return View(await _context.Permisos.ToListAsync());
         }
 
 
@@ -29,14 +28,14 @@ namespace SistemaVeterinaria.Controllers
                 return NotFound();
             }
 
-            var clientes = await _context.Clientes
-                .FirstOrDefaultAsync(m => m.IdCliente == id);
-            if (clientes == null)
+            var permisos = await _context.Permisos
+                .FirstOrDefaultAsync(m => m.IdPermiso == id);
+            if (permisos == null)
             {
                 return NotFound();
             }
 
-            return View(clientes);
+            return View(permisos);
         }
 
 
@@ -48,16 +47,15 @@ namespace SistemaVeterinaria.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdCliente, Nombre, Direccion, Telefono," +
-            "Correo, FechaRegistro, Activo")] Clientes clientes)
+        public async Task<IActionResult> Create([Bind("")] PermisosController permiso)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(clientes);
+                _context.Add(permiso);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(clientes);
+            return View(permiso);
         }
 
 
@@ -68,21 +66,20 @@ namespace SistemaVeterinaria.Controllers
                 return NotFound();
             }
 
-            var clientes = await _context.Clientes.FindAsync(id);
-            if (clientes == null)
+            var permisos = await _context.Permisos.FindAsync(id);
+            if (permisos == null)
             {
                 return NotFound();
             }
-            return View(clientes);
+            return View(permisos);
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdCliente, Nombre, Direccion, Telefono," +
-            "Correo, FechaRegistro, Activo")] Clientes clientes)
+        public async Task<IActionResult> Edit(int id, [Bind("")] Permisos permiso)
         {
-            if (id != clientes.IdCliente)
+            if (id != permiso.IdPermiso)
             {
                 return NotFound();
             }
@@ -91,12 +88,12 @@ namespace SistemaVeterinaria.Controllers
             {
                 try
                 {
-                    _context.Update(clientes);
+                    _context.Update(permiso);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!EventoExists(clientes.IdCliente))
+                    if (!EventoExists(permiso.IdPermiso))
                     {
                         return NotFound();
                     }
@@ -107,7 +104,7 @@ namespace SistemaVeterinaria.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(clientes);
+            return View(permiso);
         }
 
 
@@ -118,14 +115,14 @@ namespace SistemaVeterinaria.Controllers
                 return NotFound();
             }
 
-            var clientes = await _context.Clientes
-                .FirstOrDefaultAsync(m => m.IdCliente == id);
-            if (clientes == null)
+            var permisos = await _context.Permisos
+                .FirstOrDefaultAsync(m => m.IdPermiso == id);
+            if (permisos == null)
             {
                 return NotFound();
             }
 
-            return View(clientes);
+            return View(permisos);
         }
 
 
@@ -133,25 +130,22 @@ namespace SistemaVeterinaria.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var clientes = await _context.Clientes.FindAsync(id);
-            if (clientes != null)
+            var permisos = await _context.Permisos.FindAsync(id);
+            if (permisos != null)
             {
-                _context.Clientes.Remove(clientes);
+                _context.Permisos.Remove(permisos);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool EventoExists(int idClientes)
+        private bool EventoExists(int idPermiso)
         {
-            return _context.Clientes.Any(e => e.IdCliente == idClientes);
+            return _context.Permisos.Any(e => e.IdPermiso == idPermiso);
         }
 
         #endregion
-
-
-
 
     }
 }
