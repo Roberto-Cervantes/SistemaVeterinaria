@@ -1,0 +1,75 @@
+﻿@model IEnumerable<GestionPolizas>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Gestion Polizas</h1>
+
+<p>
+    <a asp-action="Create">Nueva Gestión</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Clientes.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaInicio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaFin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Condiciones)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrimaMensual)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            
+			
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Clientes.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Categoria)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaInicio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaFin)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Condiciones)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PrimaMensual)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Estado)
+                </td>
+               
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdPoliza">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdPoliza">Ver Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdPoliza">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

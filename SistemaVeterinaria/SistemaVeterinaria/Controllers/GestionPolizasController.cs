@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SistemaVeterinaria.Models;
 
@@ -17,7 +18,11 @@ namespace SistemaVeterinaria.Controllers
         #region CRUD
         public async Task<IActionResult> Index()
         {
-            return View(await _context.GestionPolizas.ToListAsync());
+            var gestionPolizas= await _context.GestionPolizas
+                .Include(p => p.Clientes)
+                .ToListAsync();
+            return View(gestionPolizas);    
+            //return View(await _context.GestionPolizas.ToListAsync());
         }
 
 
@@ -29,6 +34,7 @@ namespace SistemaVeterinaria.Controllers
             }
 
             var gestionpolizas = await _context.GestionPolizas
+                .Include(p => p.Clientes)
                 .FirstOrDefaultAsync(m => m.IdPoliza == id);
             if (gestionpolizas == null)
             {
@@ -41,17 +47,26 @@ namespace SistemaVeterinaria.Controllers
 
         public IActionResult Create()
         {
-            return View();
+            var clientes =_context.Clientes.ToList();
+
+            ViewBag.Clientes = clientes.Select(c => new SelectListItem
+            {
+                Value =c.IdCliente.ToString(),
+                Text = c.Nombre.ToString()
+            });
+
+            return View(new GestionPolizas());
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("")] GestionPolizasController gestionpolizas)
+        public async Task<IActionResult> Create([Bind("IdCliente, Categoria, FechaInicio, FechaFin, Condiciones, PrimaMensual, Estado")] 
+        GestionPolizas gestionpolizas)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(gestionpolizas);
+                _context.GestionPolizas.Add(gestionpolizas);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
@@ -66,7 +81,9 @@ namespace SistemaVeterinaria.Controllers
                 return NotFound();
             }
 
-            var gestionpolizas = await _context.GestionPolizas.FindAsync(id);
+            var gestionpolizas = await _context.GestionPolizas
+                .Include(p => p.Clientes)
+                .FirstOrDefaultAsync(m => m.IdPoliza == id);
             if (gestionpolizas == null)
             {
                 return NotFound();
@@ -116,6 +133,7 @@ namespace SistemaVeterinaria.Controllers
             }
 
             var gestionpolizas = await _context.GestionPolizas
+                .Include(p => p.Clientes)
                 .FirstOrDefaultAsync(m => m.IdPoliza == id);
             if (gestionpolizas == null)
             {

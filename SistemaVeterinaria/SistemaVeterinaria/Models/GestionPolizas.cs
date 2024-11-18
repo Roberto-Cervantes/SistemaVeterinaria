@@ -19,7 +19,7 @@ namespace SistemaVeterinaria.Models
         [Required(ErrorMessage = "Requerido")]
         public String Estado { get; set; }
 
-        public Clientes Clientes { get; set; }
+        public Clientes? Clientes { get; set; }
         public IEnumerable<Reclamos> Reclamos { get; set; } = new List<Reclamos>();
     }
 }

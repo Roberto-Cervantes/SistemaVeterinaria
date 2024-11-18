@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Xmodels>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>XXXXXXX</h1>
+
+<p>
+    <a asp-action="Create">Nuevo XXXXXXX</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.X1)
+            </th>
+            
+			
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.X1)
+                </td>
+               
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdX">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdX">Ver Detalles</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdX">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
