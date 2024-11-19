@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\user\\documents\\visualstudioprojects\\proyecto\\sistemaveterinaria\\sistemaveterinaria\\views\\gestionpolizas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\gestionpolizas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\user\\documents\\visualstudioprojects\\proyecto\\sistemaveterinaria\\sistemaveterinaria\\views\\gestionpolizas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\gestionpolizas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,6 +55,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\GestionPolizas\\Details.cshtml",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\GestionPolizas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\GestionPolizas\\Details.cshtml",
+              "RelativeToolTip": "SistemaVeterinaria\\Views\\GestionPolizas\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T02:55:18.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\GestionPolizas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\GestionPolizas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\GestionPolizas\\Delete.cshtml",
+              "RelativeToolTip": "SistemaVeterinaria\\Views\\GestionPolizas\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T02:38:21.138Z",
+              "EditorCaption": ""
             }
           ]
         },

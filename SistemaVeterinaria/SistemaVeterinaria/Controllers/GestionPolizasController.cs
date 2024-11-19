@@ -81,6 +81,8 @@ namespace SistemaVeterinaria.Controllers
                 return NotFound();
             }
 
+            ViewBag.Clientes = new SelectList(await _context.Clientes.ToListAsync(), "IdCliente", "Nombre");
+
             var gestionpolizas = await _context.GestionPolizas
                 .Include(p => p.Clientes)
                 .FirstOrDefaultAsync(m => m.IdPoliza == id);
@@ -100,6 +102,8 @@ namespace SistemaVeterinaria.Controllers
             {
                 return NotFound();
             }
+
+            
 
             if (ModelState.IsValid)
             {
@@ -133,8 +137,9 @@ namespace SistemaVeterinaria.Controllers
             }
 
             var gestionpolizas = await _context.GestionPolizas
-                .Include(p => p.Clientes)
+                .Include(g => g.Clientes)
                 .FirstOrDefaultAsync(m => m.IdPoliza == id);
+
             if (gestionpolizas == null)
             {
                 return NotFound();
