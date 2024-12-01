@@ -10,7 +10,8 @@ namespace SistemaVeterinaria.Models
         public String Modulo { get; set; }
         [Required(ErrorMessage = "Requerido")]
         public String Accion { get; set; }
-        public Roles Roles { get; set; }
+
+        public Roles? Roles { get; set; }
     }
 }
 

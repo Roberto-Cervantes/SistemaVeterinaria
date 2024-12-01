@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SistemaVeterinaria.Models;
 
@@ -67,7 +68,8 @@ namespace SistemaVeterinaria.Controllers
                 return NotFound();
             }
 
-            var roles = await _context.Roles.FindAsync(id);
+            var roles = await _context.Roles
+                .FindAsync(id);
             if (roles == null)
             {
                 return NotFound();

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SistemaVeterinaria.Models;
 
@@ -16,8 +17,11 @@ namespace SistemaVeterinaria.Controllers
 
         #region CRUD
         public async Task<IActionResult> Index()
-        {
-            return View(await _context.Permisos.ToListAsync());
+        { 
+            var permisos= await _context.Permisos
+            .Include(p=>p.Roles)
+            .ToListAsync();
+            return View(permisos);
         }
 
 
@@ -29,6 +33,7 @@ namespace SistemaVeterinaria.Controllers
             }
 
             var permisos = await _context.Permisos
+                .Include(p=>p.Roles)    
                 .FirstOrDefaultAsync(m => m.IdPermiso == id);
             if (permisos == null)
             {
@@ -41,13 +46,18 @@ namespace SistemaVeterinaria.Controllers
 
         public IActionResult Create()
         {
-            return View();
+            var roles = _context.Roles.ToList();
+            ViewBag.Roles = roles.Select(r => new SelectListItem { 
+                Value =r.IdRol.ToString(),
+                Text= r.NombreRol.ToString()
+            });
+            return View(new Permisos());
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("")] PermisosController permiso)
+        public async Task<IActionResult> Create([Bind("IdRol, Modulo, Accion")] Permisos permiso)
         {
             if (ModelState.IsValid)
             {
@@ -66,7 +76,18 @@ namespace SistemaVeterinaria.Controllers
                 return NotFound();
             }
 
-            var permisos = await _context.Permisos.FindAsync(id);
+            var roles = await _context.Roles.ToListAsync();
+            if (!roles.Any())
+            {
+                throw new Exception("La tabla Roles está vacía");
+            }
+
+            ViewBag.Roles = new SelectList(await _context.Roles.ToListAsync(), "IdRol", "NombreRol");
+
+            var permisos = await _context.Permisos
+                .Include(p => p.Roles)
+                .FirstOrDefaultAsync(m=>m.IdPermiso == id);
+
             if (permisos == null)
             {
                 return NotFound();
@@ -116,6 +137,7 @@ namespace SistemaVeterinaria.Controllers
             }
 
             var permisos = await _context.Permisos
+                .Include(g=>g.Roles)
                 .FirstOrDefaultAsync(m => m.IdPermiso == id);
             if (permisos == null)
             {

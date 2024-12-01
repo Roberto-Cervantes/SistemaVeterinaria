@@ -3,22 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\user\\documents\\visualstudioprojects\\proyecto\\sistemaveterinaria\\sistemaveterinaria\\views\\gestionpolizas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\gestionpolizas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\user\\documents\\visualstudioprojects\\proyecto\\sistemaveterinaria\\sistemaveterinaria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\user\\documents\\visualstudioprojects\\proyecto\\sistemaveterinaria\\sistemaveterinaria\\views\\gestionpolizas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\gestionpolizas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\user\\documents\\visualstudioprojects\\proyecto\\sistemaveterinaria\\sistemaveterinaria\\views\\permisos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\permisos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\user\\documents\\visualstudioprojects\\proyecto\\sistemaveterinaria\\sistemaveterinaria\\controllers\\permisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\controllers\\permisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\user\\documents\\visualstudioprojects\\proyecto\\sistemaveterinaria\\sistemaveterinaria\\models\\permisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\models\\permisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\user\\documents\\visualstudioprojects\\proyecto\\sistemaveterinaria\\sistemaveterinaria\\views\\permisos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\permisos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\user\\documents\\visualstudioprojects\\proyecto\\sistemaveterinaria\\sistemaveterinaria\\views\\permisos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\permisos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 275,
-          "SelectedChildIndex": 9,
+          "DockedHeight": 305,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,10 +62,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
@@ -57,35 +69,91 @@
               "Name": "ST:0:0:{a34b1c5d-6d37-4a0c-a8b0-99f8e8158b48}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PermisosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Controllers\\PermisosController.cs",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Controllers\\PermisosController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Controllers\\PermisosController.cs",
+              "RelativeToolTip": "SistemaVeterinaria\\Controllers\\PermisosController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwFoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T04:30:55.739Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\GestionPolizas\\Details.cshtml",
-              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\GestionPolizas\\Details.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\GestionPolizas\\Details.cshtml",
-              "RelativeToolTip": "SistemaVeterinaria\\Views\\GestionPolizas\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T02:55:18.53Z",
+              "WhenOpened": "2024-12-01T04:42:09.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Permisos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Delete.cshtml",
+              "RelativeToolTip": "SistemaVeterinaria\\Views\\Permisos\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T04:23:04.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Details.cshtml",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Permisos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Details.cshtml",
+              "RelativeToolTip": "SistemaVeterinaria\\Views\\Permisos\\Details.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T04:21:50.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Permisos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Models\\Permisos.cs",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Models\\Permisos.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Models\\Permisos.cs",
+              "RelativeToolTip": "SistemaVeterinaria\\Models\\Permisos.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T03:46:40.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\GestionPolizas\\Delete.cshtml",
-              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\GestionPolizas\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\GestionPolizas\\Delete.cshtml",
-              "RelativeToolTip": "SistemaVeterinaria\\Views\\GestionPolizas\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Permisos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Edit.cshtml",
+              "RelativeToolTip": "SistemaVeterinaria\\Views\\Permisos\\Edit.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T02:38:21.138Z",
+              "WhenOpened": "2024-12-01T03:40:02.421Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 153,
+          "DockedHeight": 95,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -123,7 +191,7 @@
           ]
         },
         {
-          "DockedWidth": 150,
+          "DockedHeight": 36,
           "SelectedChildIndex": -1,
           "Children": [
             {
