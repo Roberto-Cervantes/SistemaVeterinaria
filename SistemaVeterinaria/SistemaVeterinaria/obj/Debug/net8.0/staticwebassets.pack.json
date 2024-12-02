@@ -13,8 +13,24 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\wwwroot\\images\\calculadora.png",
+      "PackagePath": "staticwebassets\\images\\calculadora.png"
+    },
+    {
       "Id": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\wwwroot\\images\\logoSaveMe.jpg",
       "PackagePath": "staticwebassets\\images\\logoSaveMe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\wwwroot\\images\\personalizar.png",
+      "PackagePath": "staticwebassets\\images\\personalizar.png"
+    },
+    {
+      "Id": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\wwwroot\\images\\prueba.png",
+      "PackagePath": "staticwebassets\\images\\prueba.png"
+    },
+    {
+      "Id": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\wwwroot\\images\\quienesSomos.png",
+      "PackagePath": "staticwebassets\\images\\quienesSomos.png"
     },
     {
       "Id": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\wwwroot\\js\\site.js",
