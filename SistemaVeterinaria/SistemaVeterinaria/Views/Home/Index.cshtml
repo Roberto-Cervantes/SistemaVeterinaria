@@ -1,8 +1,85 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <!-- Sección de bienvenida -->
+    <div class="row">
+        <div class="col text-center">
+            <h1 class="display-4">Bienvenido a SaveMe</h1>
+            <p class="lead">La mejor plataforma para gestionar tus seguros personalizados. Explora nuestras funcionalidades y empieza hoy mismo.</p>
+        </div>
+    </div>
+
+    <!-- Cards de funcionalidades -->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-5">
+        <!-- Card 1: Calculadora de Seguros -->
+        <div class="col">
+            <div class="card h-100 shadow-sm" data-bs-toggle="tooltip" title="Calculadora de Seguros">
+                <img src="~/images/calculadora.jpg" class="card-img-top" alt="Calculadora de Seguros" />
+                <div class="card-body">
+                    <h5 class="card-title">Calculadora de Seguros</h5>
+                    <p class="card-text">Usa nuestra calculadora para obtener una estimación rápida de tus seguros.</p>
+                    <a href="/CalculadoraSeguros" class="btn btn-primary">Ver Calculadora</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2: Crear Seguro Personalizado -->
+        <div class="col">
+            <div class="card h-100 shadow-sm" data-bs-toggle="tooltip" title="Crea un Seguro Personalizado">
+                <img src="~/images/seguro_personalizado.jpg" class="card-img-top" alt="Seguro Personalizado" />
+                <div class="card-body">
+                    <h5 class="card-title">Crear Seguro Personalizado</h5>
+                    <p class="card-text">Personaliza tu póliza de seguro según tus necesidades.</p>
+                    <a href="/CrearSeguro" class="btn btn-primary">Crear Seguro</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3: Servicios de Asesoría -->
+        <div class="col">
+            <div class="card h-100 shadow-sm" data-bs-toggle="tooltip" title="Asesoría en Seguros">
+                <img src="~/images/asesoria.jpg" class="card-img-top" alt="Asesoría en Seguros" />
+                <div class="card-body">
+                    <h5 class="card-title">Asesoría en Seguros</h5>
+                    <p class="card-text">Recibe asesoramiento experto para elegir el seguro adecuado para ti.</p>
+                    <a href="/Asesoria" class="btn btn-primary">Ver Asesoría</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Comentarios de clientes -->
+    <div class="row mt-5">
+        <div class="col text-center">
+            <h2>Lo que dicen nuestros clientes</h2>
+            <div class="card-group mt-3">
+                <!-- Comentario 1 -->
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="card-text">"SaveMe ha transformado mi forma de gestionar seguros. La plataforma es fácil de usar y me dio la mejor opción para mi seguro de automóvil. ¡Altamente recomendado!"</p>
+                        <footer class="blockquote-footer">Juan Pérez, <cite title="Source Title">Cliente Satisfecho</cite></footer>
+                    </div>
+                </div>
+
+                <!-- Comentario 2 -->
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="card-text">"La calculadora de seguros fue una herramienta muy útil. Ahora puedo tomar decisiones informadas sobre qué seguro contratar. Gracias SaveMe!"</p>
+                        <footer class="blockquote-footer">Ana Gómez, <cite title="Source Title">Usuario Feliz</cite></footer>
+                    </div>
+                </div>
+
+                <!-- Comentario 3 -->
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <p class="card-text">"La creación de seguros personalizados es fantástica. Ahora tengo una póliza que realmente se ajusta a mis necesidades. SaveMe hizo todo el proceso tan sencillo."</p>
+                        <footer class="blockquote-footer">Carlos López, <cite title="Source Title">Cliente Satisfecho</cite></footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+

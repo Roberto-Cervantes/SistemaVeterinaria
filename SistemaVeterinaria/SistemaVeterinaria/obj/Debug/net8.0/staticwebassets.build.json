@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Yc81h5Ib/3luWs/0tiAOCQtJSUSask8W0FpMniODb6o=",
+  "Hash": "ddOygk+ykseOVnBjGgQmmPZtvptoeNrXVo7AHnkZ9oQ=",
   "Source": "SistemaVeterinaria",
   "BasePath": "_content/SistemaVeterinaria",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\wwwroot\\images\\logoSaveMe.jpg",
+      "SourceId": "SistemaVeterinaria",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\wwwroot\\",
+      "BasePath": "_content/SistemaVeterinaria",
+      "RelativePath": "images/logoSaveMe.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logoSaveMe.jpg"
     },
     {
       "Identity": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\wwwroot\\js\\site.js",

@@ -1,22 +1,149 @@
-html {
-  font-size: 14px;
+/* Fuente personalizada para "SaveMe" */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Estilos globales */
+html, body {
+    height: 100%; /* Ocupa toda la altura del navegador */
+    margin: 0; /* Sin márgenes */
+    display: flex; /* Usamos flexbox para distribuir los elementos verticalmente */
+    flex-direction: column; /* Los elementos estarán apilados en columna */
+    overflow-x: hidden; /* Evita que aparezca un scroll horizontal */
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* Body con fondo suave */
 body {
-  margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif; /* Fuente más moderna y profesional */
+    background-color: #f9fafc; /* Fondo suave */
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en columna */
+    flex-grow: 1; /* Hace que el body ocupe todo el espacio disponible */
+    overflow-y: auto; /* Permite scroll vertical */
 }
+
+/* El contenedor principal toma el espacio disponible */
+.container {
+    flex: 1; /* Esto permite que el contenedor ocupe el espacio restante entre el contenido y el footer */
+    padding-bottom: 40px; /* Añadir algo de espacio al fondo para evitar que el footer se superponga al contenido */
+}
+
+/* Navbar personalizado */
+.navbar-custom .navbar-brand {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: #2C3E50;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+    .navbar-custom .navbar-brand:hover {
+        color: #1F2A44;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+/* Navbar links */
+.navbar-custom .navbar-nav .nav-link {
+    color: #555 !important;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    .navbar-custom .navbar-nav .nav-link:hover,
+    .navbar-custom .navbar-nav .nav-link:focus {
+        color: #fff !important;
+        background-color: #2980b9;
+        border-radius: 5px;
+    }
+
+.navbar-custom {
+    background-color: #A3C8E0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff; /* Fondo blanco */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+    .card img {
+        object-fit: cover; /* Ajusta la imagen dentro de la tarjeta */
+        height: 200px; /* Altura fija para las imágenes */
+    }
+
+.card-body {
+    padding: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2C3E50;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Espaciado entre las tarjetas */
+.row-cols-1 {
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #2C3E50; /* Fondo oscuro */
+    color: #fff; /* Texto claro */
+    padding: 10px 0; /* Reducción del tamaño del footer */
+    text-align: center;
+    font-size: 0.8rem;
+    width: 100%;
+}
+
+/* Sección de comentarios de clientes */
+.card-group {
+    margin-top: 30px;
+}
+
+.blockquote-footer {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Sección de bienvenida */
+h1 {
+    color: #2C3E50;
+}
+
+h2 {
+    color: #2C3E50;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: #777;
+}
+
+/* Mejoras en la interfaz de usuario */
+.btn-primary {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+    .btn-primary:hover {
+        background-color: #1F2A44;
+        border-color: #1F2A44;
+    }

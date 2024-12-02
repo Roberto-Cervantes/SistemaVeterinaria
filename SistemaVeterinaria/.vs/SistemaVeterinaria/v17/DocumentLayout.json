@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\sistemaveterinaria\\sistemaveterinaria\\sistemaveterinaria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\sistemaveterinaria\\sistemaveterinaria\\sistemaveterinaria\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\sistemaveterinaria\\sistemaveterinaria\\sistemaveterinaria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\sistemaveterinaria\\sistemaveterinaria\\sistemaveterinaria\\views\\permisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\permisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -107,10 +119,6 @@
       "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\sistemaveterinaria\\sistemaveterinaria\\sistemaveterinaria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\sistemaveterinaria\\sistemaveterinaria\\sistemaveterinaria\\controllers\\permisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\controllers\\permisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -126,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 305,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -166,46 +174,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Index.cshtml",
-              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Permisos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Index.cshtml",
-              "RelativeToolTip": "SistemaVeterinaria\\Views\\Permisos\\Index.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAwwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T18:06:24.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Delete.cshtml",
-              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Permisos\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Delete.cshtml",
-              "RelativeToolTip": "SistemaVeterinaria\\Views\\Permisos\\Delete.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T04:23:04.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Permisos\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Edit.cshtml",
-              "RelativeToolTip": "SistemaVeterinaria\\Views\\Permisos\\Edit.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SistemaVeterinaria\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAowFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T03:40:02.421Z",
+              "WhenOpened": "2024-12-02T18:49:02.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SistemaVeterinaria\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAQwJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T18:24:22.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T04:42:09.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Details.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Permisos\\Details.cshtml",
@@ -213,12 +221,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Permisos\\Details.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T04:21:50.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T04:21:50.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Create.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Permisos\\Create.cshtml",
@@ -226,12 +233,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Permisos\\Create.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAwwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T18:04:00.23Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T18:04:00.23Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Usuarios\\Details.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Usuarios\\Details.cshtml",
@@ -239,12 +245,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Usuarios\\Details.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAAAwwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:17:46.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:17:46.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Usuarios\\Edit.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Usuarios\\Edit.cshtml",
@@ -252,12 +257,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Usuarios\\Edit.cshtml",
               "ViewState": "AgIAACAAAAAAAAAAAAAwwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:18:03.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:18:03.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Usuarios\\Delete.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Usuarios\\Delete.cshtml",
@@ -265,12 +269,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Usuarios\\Delete.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:17:34.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:17:34.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Usuarios\\Create.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Usuarios\\Create.cshtml",
@@ -278,12 +281,48 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Usuarios\\Create.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAwwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:16:40.405Z",
+              "WhenOpened": "2024-12-02T17:16:40.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Permisos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Index.cshtml",
+              "RelativeToolTip": "SistemaVeterinaria\\Views\\Permisos\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T18:06:24.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Permisos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Edit.cshtml",
+              "RelativeToolTip": "SistemaVeterinaria\\Views\\Permisos\\Edit.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T03:40:02.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Permisos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Permisos\\Delete.cshtml",
+              "RelativeToolTip": "SistemaVeterinaria\\Views\\Permisos\\Delete.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T04:23:04.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Clientes\\Details.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Clientes\\Details.cshtml",
@@ -291,12 +330,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Clientes\\Details.cshtml",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:45:56.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:45:56.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Clientes\\Delete.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Clientes\\Delete.cshtml",
@@ -304,12 +342,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Clientes\\Delete.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAIwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:44:53.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:44:53.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Clientes\\Edit.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Clientes\\Edit.cshtml",
@@ -317,12 +354,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Clientes\\Edit.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAAAIwEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:45:02.935Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:45:02.935Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Clientes\\Create.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Clientes\\Create.cshtml",
@@ -330,12 +366,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Clientes\\Create.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAIwD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:44:21.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:44:21.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Roles\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Roles\\Index.cshtml",
@@ -343,12 +378,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Roles\\Index.cshtml",
               "ViewState": "AgIAABgAAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:31:30.892Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:31:30.892Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\GestionPolizas\\Create.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\GestionPolizas\\Create.cshtml",
@@ -356,12 +390,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\GestionPolizas\\Create.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAAAIwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T16:57:10.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T16:57:10.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\GestionPolizas\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\GestionPolizas\\Index.cshtml",
@@ -369,12 +402,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\GestionPolizas\\Index.cshtml",
               "ViewState": "AgIAAAoAAAAAAAAAAAAIwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:11:00.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:11:00.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Usuarios\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Usuarios\\Index.cshtml",
@@ -382,12 +414,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Usuarios\\Index.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAAAIwA0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:19:34.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:19:34.839Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Roles\\Create.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Roles\\Create.cshtml",
@@ -395,12 +426,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Roles\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAwwCIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:30:32.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:30:32.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Clientes\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Clientes\\Index.cshtml",
@@ -408,12 +438,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Clientes\\Index.cshtml",
               "ViewState": "AgIAAAgAAAAAAAAAAAAwwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:46:07.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:46:07.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Roles\\Delete.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Roles\\Delete.cshtml",
@@ -421,12 +450,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Roles\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:31:01.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:31:01.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Roles\\Details.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Roles\\Details.cshtml",
@@ -434,12 +462,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Roles\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:31:11.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:31:11.907Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Roles\\Edit.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Roles\\Edit.cshtml",
@@ -447,12 +474,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Roles\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:31:22.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:31:22.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\GestionPolizas\\Edit.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\GestionPolizas\\Edit.cshtml",
@@ -460,12 +486,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\GestionPolizas\\Edit.cshtml",
               "ViewState": "AgIAACIAAAAAAAAAAAAswEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:10:08.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:10:08.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\GestionPolizas\\Details.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\GestionPolizas\\Details.cshtml",
@@ -473,12 +498,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\GestionPolizas\\Details.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAswC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:10:02.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:10:02.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\GestionPolizas\\Delete.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\GestionPolizas\\Delete.cshtml",
@@ -486,12 +510,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\GestionPolizas\\Delete.cshtml",
               "ViewState": "AgIAAA0AAAAAAAAAAAAIwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-02T17:04:30.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T17:04:30.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\appsettings.json",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\appsettings.json",
@@ -499,12 +522,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-01T23:15:07.93Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-01T23:15:07.93Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "PermisosController.cs",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Controllers\\PermisosController.cs",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Controllers\\PermisosController.cs",
@@ -516,19 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-01T04:42:09.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Permisos.cs",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Models\\Permisos.cs",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Models\\Permisos.cs",
