@@ -1,71 +1,49 @@
 ﻿@model GestionPolizas
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Eliminar Póliza";
 }
 
-<h1>Eliminar</h1>
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-danger text-white">
+                    <h3 class="card-title mb-0">Confirmar Eliminación</h3>
+                </div>
+                <div class="card-body">
+                    <h4 class="text-center mb-4">¿Está seguro de que desea eliminar esta póliza?</h4>
+                    <dl class="row">
+                        <dt class="col-sm-4 fw-bold">Cliente</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Clientes.Nombre)</dd>
 
-<h3>¿Seguro desea borrar esta Gestion?</h3>
-<div>
-    <h4>Gestión Polizas</h4>
-    <hr />
-    <dl class="row">
-	
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Clientes.Nombre)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Clientes.Nombre)
-        </dd>
+                        <dt class="col-sm-4 fw-bold">Categoría</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Categoria)</dd>
 
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Categoria)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Categoria)
-        </dd>
+                        <dt class="col-sm-4 fw-bold">Fecha de Inicio</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.FechaInicio)</dd>
 
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.FechaInicio)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.FechaInicio)
-        </dd>
+                        <dt class="col-sm-4 fw-bold">Fecha de Fin</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.FechaFin)</dd>
 
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.FechaFin)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.FechaFin)
-        </dd>
+                        <dt class="col-sm-4 fw-bold">Condiciones</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Condiciones)</dd>
 
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Condiciones)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Condiciones)
-        </dd>
+                        <dt class="col-sm-4 fw-bold">Prima Mensual</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.PrimaMensual)</dd>
 
-         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.PrimaMensual)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.PrimaMensual)
-        </dd>
-
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Estado)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Estado)
-        </dd>
-        
-    </dl>
-
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="IdPoliza" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
+                        <dt class="col-sm-4 fw-bold">Estado</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Estado)</dd>
+                    </dl>
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <form asp-action="Delete" class="mb-0">
+                        <input type="hidden" asp-for="IdPoliza" />
+                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                    </form>
+                    <a asp-action="Index" class="btn btn-outline-secondary">Cancelar</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

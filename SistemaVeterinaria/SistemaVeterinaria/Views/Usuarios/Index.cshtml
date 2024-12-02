@@ -1,56 +1,38 @@
 ﻿@model IEnumerable<Usuarios>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Listado de Usuarios";
 }
 
-<h1>Usuarios</h1>
+<div class="container my-5">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="text-primary">Gestión de Usuarios</h2>
+        <a asp-action="Create" class="btn btn-primary">Nuevo Usuario</a>
+    </div>
 
-<p>
-    <a asp-action="Create">Nuevo Usuario</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.nombreUsuario)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Password)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Rol)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EstadoUsuario)
-            </th>
-			
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+    <table class="table table-striped table-hover shadow">
+        <thead class="table-dark">
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.nombreUsuario)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Password)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Rol)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.EstadoUsuario)
-                </td>
-               
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.IdUsuario">Editar</a> |
-                    <a asp-action="Details" asp-route-id="@item.IdUsuario">Ver Detalles</a> |
-                    <a asp-action="Delete" asp-route-id="@item.IdUsuario">Eliminar</a>
-                </td>
+                <th>Nombre de Usuario</th>
+                <th>Rol</th>
+                <th>Estado</th>
+                <th>Acciones</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var usuario in Model)
+            {
+                <tr>
+                    <td>@usuario.nombreUsuario</td>
+                    <td>@usuario.Rol</td>
+                    <td>@usuario.EstadoUsuario</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@usuario.IdUsuario" class="btn btn-warning btn-sm">Editar</a>
+                        <a asp-action="Details" asp-route-id="@usuario.IdUsuario" class="btn btn-info btn-sm text-white">Detalles</a>
+                        <a asp-action="Delete" asp-route-id="@usuario.IdUsuario" class="btn btn-danger btn-sm">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

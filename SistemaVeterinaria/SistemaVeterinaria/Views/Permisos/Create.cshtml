@@ -1,51 +1,53 @@
 ﻿@model Permisos
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Crear Permiso";
 }
 
-
-<h1>Crear</h1>
-
-<h4>Crear Permiso</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-
+<div class="card shadow">
+    <div class="card-header bg-primary text-white">
+        <h4 class="mb-0">Crear Permiso</h4>
+    </div>
+    <div class="card-body">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-			
-            <div class="form-group">
-                <label asp-for="Modulo" class="control-label"></label>
-                <input asp-for="Modulo" class="form-control" />
-                <span asp-validation-for="Modulo" class="text-danger"></span>
-            </div>
-			
-			<div class="form-group">
-                <label asp-for="Accion" class="control-label"></label>
-                <input asp-for="Accion" class="form-control" />
-                <span asp-validation-for="Accion" class="text-danger"></span>
-            </div>
-			
-			<div class="form-group">
-                <label asp-for="IdRol" class="control-label"></label>
-                
-                <select asp-for="IdRol" class="form-control" asp-items="ViewBag.Roles">
-                    <option value="">Seleccione un Rol</option>
-                </select>
 
-                <span asp-validation-for="IdRol" class="text-danger"></span>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Modulo"></label>
+                        <input asp-for="Modulo" class="form-control" placeholder="Ingrese el módulo" />
+                        <span asp-validation-for="Modulo" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Accion"></label>
+                        <input asp-for="Accion" class="form-control" placeholder="Ingrese la acción" />
+                        <span asp-validation-for="Accion" class="text-danger"></span>
+                    </div>
+                </div>
             </div>
 
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="IdRol"></label>
+                        <select asp-for="IdRol" class="form-control" asp-items="ViewBag.Roles">
+                            <option value="">Seleccione un Rol</option>
+                        </select>
+                        <span asp-validation-for="IdRol" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-end mt-4">
+                <button type="submit" class="btn btn-primary me-2">Crear</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

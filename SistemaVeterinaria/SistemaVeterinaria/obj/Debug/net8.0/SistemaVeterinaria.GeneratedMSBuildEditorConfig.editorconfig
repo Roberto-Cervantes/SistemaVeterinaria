@@ -9,139 +9,139 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SistemaVeterinaria
 build_property.RootNamespace = SistemaVeterinaria
-build_property.ProjectDir = C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria\
+build_property.ProjectDir = C:\Users\Universo Industrial3\Desktop\Universidad\Programación Avanzada en Web\SistemaVeterinaria\SistemaVeterinaria\SistemaVeterinaria\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\Documents\VisualStudioProjects\Proyecto\SistemaVeterinaria\SistemaVeterinaria
+build_property.MSBuildProjectDirectory = C:\Users\Universo Industrial3\Desktop\Universidad\Programación Avanzada en Web\SistemaVeterinaria\SistemaVeterinaria\SistemaVeterinaria
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Clientes/Create.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Clientes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Clientes/Delete.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Clientes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Clientes/Details.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Clientes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Clientes/Edit.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Clientes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Clientes/Index.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Clientes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/GestionPolizas/Create.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/GestionPolizas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvblBvbGl6YXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/GestionPolizas/Delete.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/GestionPolizas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvblBvbGl6YXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/GestionPolizas/Details.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/GestionPolizas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvblBvbGl6YXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/GestionPolizas/Edit.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/GestionPolizas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvblBvbGl6YXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/GestionPolizas/Index.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/GestionPolizas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvblBvbGl6YXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Home/Index.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Home/Privacy.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Permisos/Create.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Permisos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Permisos/Delete.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Permisos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Permisos/Details.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Permisos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Permisos/Edit.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Permisos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Permisos/Index.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Permisos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVybWlzb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Roles/Create.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Roles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Roles/Delete.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Roles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Roles/Details.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Roles/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Roles/Edit.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Roles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Roles/Index.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Roles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Shared/Error.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Usuarios/Create.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Usuarios/Delete.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Usuarios/Details.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Usuarios/Edit.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Usuarios/Index.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/_ViewImports.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/_ViewStart.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/Documents/VisualStudioProjects/Proyecto/SistemaVeterinaria/SistemaVeterinaria/Views/Shared/_Layout.cshtml]
+[C:/Users/Universo Industrial3/Desktop/Universidad/Programación Avanzada en Web/SistemaVeterinaria/SistemaVeterinaria/SistemaVeterinaria/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5027vp0wjb

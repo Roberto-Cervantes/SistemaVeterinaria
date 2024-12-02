@@ -1,49 +1,40 @@
 ﻿@model IEnumerable<Permisos>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Lista de Permisos";
 }
 
-<h1>Permisos</h1>
+<div class="container my-5">
+    <div class="row justify-content-between align-items-center mb-3">
+        <h2 class="text-primary">Permisos</h2>
+        <a asp-action="Create" class="btn btn-success">Crear Nuevo Permiso</a>
+    </div>
 
-<p>
-    <a asp-action="Create">Nuevo Permiso</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Modulo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Accion)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Roles.NombreRol)
-            </th>
-            <th></th>
-        </tr>
-
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Modulo)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Accion)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Roles.NombreRol)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.IdPermiso">Editar</a> |
-                    <a asp-action="Details" asp-route-id="@item.IdPermiso">Ver Detalles</a> |
-                    <a asp-action="Delete" asp-route-id="@item.IdPermiso">Eliminar</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Módulo</th>
+                    <th>Acción</th>
+                    <th>Rol</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var permiso in Model)
+                {
+                    <tr>
+                        <td>@permiso.Modulo</td>
+                        <td>@permiso.Accion</td>
+                        <td>@permiso.Roles.NombreRol</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@permiso.IdPermiso" class="btn btn-warning btn-sm">Editar</a>
+                            <a asp-action="Details" asp-route-id="@permiso.IdPermiso" class="btn btn-info btn-sm">Ver</a>
+                            <a asp-action="Delete" asp-route-id="@permiso.IdPermiso" class="btn btn-danger btn-sm">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

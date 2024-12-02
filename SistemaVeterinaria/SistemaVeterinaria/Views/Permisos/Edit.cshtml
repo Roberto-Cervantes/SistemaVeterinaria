@@ -1,46 +1,54 @@
 ﻿@model Permisos
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar Permiso";
 }
 
-<h1>Editar Permisos</h1>
-
-<h4>Permiso</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
+<div class="card shadow">
+    <div class="card-header bg-warning text-white">
+        <h4 class="mb-0">Editar Permiso</h4>
+    </div>
+    <div class="card-body">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="IdPermiso" />
-            
-            <div class="form-group">
-                <label asp-for="Modulo" class="control-label"></label>
-                <input asp-for="Modulo" class="form-control" />
-                <span asp-validation-for="Modulo" class="text-danger"></span>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Modulo"></label>
+                        <input asp-for="Modulo" class="form-control" placeholder="Ingrese el módulo" />
+                        <span asp-validation-for="Modulo" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Accion"></label>
+                        <input asp-for="Accion" class="form-control" placeholder="Ingrese la acción" />
+                        <span asp-validation-for="Accion" class="text-danger"></span>
+                    </div>
+                </div>
             </div>
 
-            <div class="form-group">
-                <label asp-for="Accion" class="control-label"></label>
-                <input asp-for="Accion" class="form-control" />
-                <span asp-validation-for="Accion" class="text-danger"></span>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="IdRol"></label>
+                        <select asp-for="IdRol" class="form-control" asp-items="ViewBag.Roles">
+                            <option value="">Seleccione un Rol</option>
+                        </select>
+                        <span asp-validation-for="IdRol" class="text-danger"></span>
+                    </div>
+                </div>
             </div>
 
-            <div class="form-group">
-                <label asp-for="IdRol" class="control-label"></label>
-                <select asp-for="IdRol" asp-items="ViewBag.Roles" class="form-control"></select>
-                <span asp-validation-for="IdRol" class="text-danger"></span>
-            </div>
-
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <div class="d-flex justify-content-end mt-4">
+                <button type="submit" class="btn btn-warning me-2">Guardar Cambios</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {
