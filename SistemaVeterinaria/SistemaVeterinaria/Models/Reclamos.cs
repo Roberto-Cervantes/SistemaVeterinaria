@@ -6,7 +6,7 @@ namespace SistemaVeterinaria.Models
     {
         public int IdReclamo { get; set; }
         public int IdPoliza { get; set; }
-        public int IdCliente { get; set; }
+
         [Required(ErrorMessage = "Requerido")]
         public String Descripcion { get; set; }
         [Required(ErrorMessage = "Requerido")]
@@ -15,7 +15,7 @@ namespace SistemaVeterinaria.Models
         public bool Estado { get; set; }
         public DateOnly FechaResolucion { get; set; }
 
-        public GestionPolizas GestionPolizas { get; set; }
+        public GestionPolizas? GestionPolizas { get; set; }
         public IEnumerable<SeguimientoReclamos> SeguimientoReclamos { get; set; } = new List<SeguimientoReclamos>();
         
     }

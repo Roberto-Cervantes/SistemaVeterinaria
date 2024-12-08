@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SistemaVeterinaria.Models;
+using System.Data;
 
 namespace SistemaVeterinaria.Controllers
 {
@@ -17,7 +19,11 @@ namespace SistemaVeterinaria.Controllers
         #region CRUD
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Reclamos.ToListAsync());
+            var reclamos = await _context.Reclamos
+                .Include(p => p.GestionPolizas)
+                .Include(g => g.GestionPolizas.Clientes)
+                .ToListAsync();
+            return View(reclamos);
         }
 
 
@@ -29,6 +35,7 @@ namespace SistemaVeterinaria.Controllers
             }
 
             var reclamos = await _context.Reclamos
+                .Include(g => g.GestionPolizas.Clientes)
                 .FirstOrDefaultAsync(m => m.IdReclamo == id);
             if (reclamos == null)
             {
@@ -41,13 +48,28 @@ namespace SistemaVeterinaria.Controllers
 
         public IActionResult Create()
         {
-            return View();
+            var gestionpolizas = _context.GestionPolizas
+                .Include(g => g.Clientes)
+                .ToList();
+            if (!gestionpolizas.Any())
+            {
+                ViewBag.GestionPolizas = new List<SelectListItem>();
+            }
+            else
+            {
+                ViewBag.GestionPolizas = gestionpolizas.Select(r => new SelectListItem
+                {
+                    Value = r.IdPoliza.ToString(),
+                    Text = r.Clientes.Nombre.ToString()
+                }).ToList();
+            }
+            return View(new Reclamos());
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("")] Reclamos reclamos)
+        public async Task<IActionResult> Create([Bind("IdPoliza, Descripcion, FechaReclamo, Estado, FechaResolucion")] Reclamos reclamos)
         {
             if (ModelState.IsValid)
             {
@@ -66,7 +88,17 @@ namespace SistemaVeterinaria.Controllers
                 return NotFound();
             }
 
-            var reclamos = await _context.Reclamos.FindAsync(id);
+            var gestionpolizas = await _context.GestionPolizas.ToListAsync();
+            if (!gestionpolizas.Any())
+            {
+                throw new Exception("La tabla Gestion Polizas está vacía");
+            }
+            ViewBag.GestionPolizas = new SelectList(await _context.GestionPolizas.ToListAsync(), "IdPoliza", "Condiciones");
+
+            var reclamos = await _context.Reclamos
+                .Include(x => x.GestionPolizas)
+                .Include(c => c.GestionPolizas.Clientes)
+                .FirstOrDefaultAsync(m=> m.IdReclamo == id);
             if (reclamos == null)
             {
                 return NotFound();
@@ -77,13 +109,13 @@ namespace SistemaVeterinaria.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("")] Reclamos reclamos)
+        public async Task<IActionResult> Edit(int id, [Bind("IdReclamo,IdPoliza,Descripcion,FechaReclamo,Estado,FechaResolucion")] Reclamos reclamos)
         {
             if (id != reclamos.IdReclamo)
-            {
+            {   
                 return NotFound();
-            }
 
+            }
             if (ModelState.IsValid)
             {
                 try
@@ -116,6 +148,8 @@ namespace SistemaVeterinaria.Controllers
             }
 
             var reclamos = await _context.Reclamos
+                .Include(g=>g.GestionPolizas)
+                .Include(g => g.GestionPolizas.Clientes)
                 .FirstOrDefaultAsync(m => m.IdReclamo == id);
             if (reclamos == null)
             {

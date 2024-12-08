@@ -1,0 +1,46 @@
+﻿@model Reclamos
+
+@{
+    ViewData["Title"] = "Detalle del Reclamo";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-info text-white">
+                    <h3 class="card-title mb-0">Detalle del Reclamo</h3>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tr>
+                                <th>Cliente</th>
+                                <td>@Html.DisplayFor(model => model.GestionPolizas.Clientes.Nombre)</td>
+                            </tr>
+                            <tr>
+                                <th>Descripcion</th>
+                                <td>@Html.DisplayFor(model => model.Descripcion)</td>
+                            </tr>
+                            <tr>
+                                <th>Fecha Reclamo</th>
+                                <td>@Html.DisplayFor(model => model.FechaReclamo)</td>
+                            </tr>
+                            <tr>
+                                <th>Estado</th>
+                                <td>@Html.DisplayFor(model => model.Estado)</td>
+                            </tr>
+                            <tr>
+                                <th>Fecha de Resolucion</th>
+                                <td>@Html.DisplayFor(model => model.FechaResolucion)</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <a asp-action="Index" class="btn btn-outline-secondary">Volver a la Lista</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

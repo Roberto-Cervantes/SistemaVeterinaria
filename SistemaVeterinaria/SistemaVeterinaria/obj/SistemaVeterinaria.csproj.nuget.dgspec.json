@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria.csproj": {}
+    "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria.csproj": {
+    "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria.csproj",
         "projectName": "SistemaVeterinaria",
-        "projectPath": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria.csproj",
-        "packagesPath": "C:\\Users\\Universo Industrial3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\obj\\",
+        "projectPath": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\VisualStudioProjects\\Proyecto\\SistemaVeterinaria\\SistemaVeterinaria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Universo Industrial3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

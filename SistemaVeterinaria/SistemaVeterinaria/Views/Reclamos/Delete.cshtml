@@ -1,0 +1,53 @@
+﻿@model Reclamos
+
+@{
+    ViewData["Title"] = "Eliminar Reclamo";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-danger text-white">
+                    <h3 class="card-title mb-0">Eliminar Reclamo</h3>
+                </div>
+                <div class="card-body">
+                    <h5>¿Está seguro que desea eliminar este Reclamo?</h5>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tr>
+                                <th>Nombre</th>
+                                <td>@Html.DisplayFor(model => model.GestionPolizas.Clientes.Nombre)</td>
+                            </tr>
+                            <tr>
+                                <th>Dirección</th>
+                                <td>@Html.DisplayFor(model => model.Descripcion)</td>
+                            </tr>
+                            <tr>
+                                <th>Teléfono</th>
+                                <td>@Html.DisplayFor(model => model.FechaReclamo)</td>
+                            </tr>
+                            <tr>
+                                <th>Correo</th>
+                                <td>@Html.DisplayFor(model => model.Estado)</td>
+                            </tr>
+                            <tr>
+                                <th>Fecha de Registro</th>
+                                <td>@Html.DisplayFor(model => model.FechaResolucion)</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <form asp-action="Delete">
+                        <input type="hidden" asp-for="IdReclamo" />
+                        <button type="submit" class="btn btn-danger">Eliminar Reclamo</button>
+                    </form>
+                </div>
+            </div>
+            <div class="mt-3 text-center">
+                <a asp-action="Index" class="btn btn-outline-secondary">Volver a la Lista</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Reclamos>
+
+@{
+    ViewData["Title"] = "Lista de Reclamos";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-between align-items-center mb-3">
+        <h2 class="text-primary">Reclamos</h2>
+        <a asp-action="Create" class="btn btn-success">Crear Nuevo Reclamo</a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Cliente</th>
+                    <th>Descripcion</th>
+                    <th>Fecha Reclamo</th>
+                    <th>Estado</th>
+                    <th>Fecha Resolucion</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var reclamo in Model)
+                {
+                    <tr>
+                        <td>@reclamo.GestionPolizas.Clientes.Nombre</td>
+                        <td>@reclamo.Descripcion</td>
+                        <td>@reclamo.FechaReclamo</td>
+                        @* <td>@reclamo.Estado</td> *@
+                        <td>
+                            <input type="checkbox"
+                                   disabled
+                            @(reclamo.Estado ? "checked" : "") />
+                        </td>
+                        <td>@reclamo.FechaResolucion</td>
+
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@reclamo.IdReclamo" class="btn btn-warning btn-sm">Editar</a>
+                            <a asp-action="Details" asp-route-id="@reclamo.IdReclamo" class="btn btn-info btn-sm">Ver</a>
+                            <a asp-action="Delete" asp-route-id="@reclamo.IdReclamo" class="btn btn-danger btn-sm">Eliminar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
