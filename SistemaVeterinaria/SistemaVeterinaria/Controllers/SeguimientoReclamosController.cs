@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using SistemaVeterinaria.Models;
 
@@ -17,38 +18,44 @@ namespace SistemaVeterinaria.Controllers
         #region CRUD
         public async Task<IActionResult> Index()
         {
-            return View(await _context.SeguimientoReclamos.ToListAsync());
+            var seguimientos = await _context.SeguimientoReclamos
+            .Include(s => s.Reclamos) // Incluye la relación con Reclamos
+            .ToListAsync();
+
+            return View(seguimientos);
         }
-
-
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var seguimientoreclamos = await _context.SeguimientoReclamos
-                .FirstOrDefaultAsync(m => m.IdSeguimiento  == id);
-            if (seguimientoreclamos == null)
-            {
-                return NotFound();
-            }
-
-            return View(seguimientoreclamos);
-        }
-
 
         public IActionResult Create()
         {
-            return View();
+            var reclamos = _context.Reclamos
+                .ToList();
+
+            if (!reclamos.Any())
+            {
+                ViewBag.Reclamos = new List<SelectListItem>();
+            }
+            else
+            {
+                ViewBag.Reclamos = reclamos.Select(r => new SelectListItem
+                {
+                    Value = r.IdReclamo.ToString(),
+                    Text = $"Reclamo: {r.IdReclamo} - Descripción: {r.Descripcion}"
+                }).ToList();
+            }
+            return View(new SeguimientoReclamos());
         }
 
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("")] SeguimientoReclamosController seguimientoreclamos)
+        public async Task<IActionResult> Create([Bind("IdReclamo,FechaSeguimiento,Descripcion,NotificacionCliente")] SeguimientoReclamos seguimientoreclamos)
         {
+            seguimientoreclamos.Reclamos = await _context.Reclamos
+            .FirstOrDefaultAsync(r => r.IdReclamo == seguimientoreclamos.IdReclamo);
+
+            ModelState.Clear();
+            TryValidateModel(seguimientoreclamos);
+
             if (ModelState.IsValid)
             {
                 _context.Add(seguimientoreclamos);
@@ -56,93 +63,6 @@ namespace SistemaVeterinaria.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(seguimientoreclamos);
-        }
-
-
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var seguimientoreclamos = await _context.SeguimientoReclamos.FindAsync(id);
-            if (seguimientoreclamos == null)
-            {
-                return NotFound();
-            }
-            return View(seguimientoreclamos);
-        }
-
-
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("")] SeguimientoReclamos seguimientoreclamos)
-        {
-            if (id != seguimientoreclamos.IdSeguimiento )
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(seguimientoreclamos);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!EventoExists(seguimientoreclamos.IdSeguimiento ))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(seguimientoreclamos);
-        }
-
-
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var seguimientoreclamos = await _context.SeguimientoReclamos
-                .FirstOrDefaultAsync(m => m.IdSeguimiento  == id);
-            if (seguimientoreclamos == null)
-            {
-                return NotFound();
-            }
-
-            return View(seguimientoreclamos);
-        }
-
-
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var seguimientoreclamos = await _context.SeguimientoReclamos.FindAsync(id);
-            if (seguimientoreclamos != null)
-            {
-                _context.SeguimientoReclamos.Remove(seguimientoreclamos);
-            }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool EventoExists(int IdSeguimiento )
-        {
-            return _context.SeguimientoReclamos.Any(e => e.IdSeguimiento  == IdSeguimiento );
         }
 
         #endregion
