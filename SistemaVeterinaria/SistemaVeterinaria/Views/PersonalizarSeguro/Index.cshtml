@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Personalizar Seguro";
+    var coberturas = ViewBag.Coberturas as List<string>;
+    var clientes = ViewBag.Clientes as List<SistemaVeterinaria.Models.Clientes>;
+}
+
+<h1 class="text-center">Personalizar tu Seguro</h1>
+
+<form asp-action="AgregarAlCarrito" method="post" class="p-4 shadow-lg rounded bg-light">
+    <div class="form-group mb-3">
+        <label for="cliente">Cliente</label>
+        <select name="clienteId" class="form-control" required>
+            <option value="" disabled selected>Seleccione un cliente</option>
+            @foreach (var cliente in clientes)
+            {
+                <option value="@cliente.IdCliente">@cliente.Nombre</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group mb-3">
+        <label>Categoría del Seguro</label>
+        <select name="categoria" class="form-control" required>
+            <option value="" disabled selected>Seleccione una categoría</option>
+            <option>Hogar</option>
+            <option>Salud</option>
+            <option>Automóvil</option>
+        </select>
+    </div>
+
+    <div class="form-group mb-3">
+        <label>Duración (meses)</label>
+        <input type="number" name="periodo" min="1" max="24" class="form-control" required />
+    </div>
+
+    <div class="form-group mb-3">
+        <label>Coberturas Adicionales</label><br />
+        @foreach (var cobertura in coberturas)
+        {
+            <div class="form-check">
+                <input type="checkbox" name="coberturas" value="@cobertura" class="form-check-input" id="@cobertura">
+                <label class="form-check-label" for="@cobertura">@cobertura</label>
+            </div>
+        }
+    </div>
+
+    <div class="text-center">
+        <button type="submit" class="btn btn-success btn-lg">Agregar al Carrito</button>
+    </div>
+</form>
