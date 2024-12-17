@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\sistemaveterinaria\\sistemaveterinaria\\sistemaveterinaria\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|c:\\users\\universo industrial3\\desktop\\universidad\\programaci\u00F3n avanzada en web\\sistemaveterinaria\\sistemaveterinaria\\sistemaveterinaria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A223D3BD-70FB-4F5F-8C09-243834159F9A}|SistemaVeterinaria\\SistemaVeterinaria.csproj|solutionrelative:sistemaveterinaria\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -105,19 +109,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "SistemaVeterinaria\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T22:48:07.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwC4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-17T22:32:05.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
@@ -125,12 +142,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T22:22:23.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T22:22:23.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\appsettings.json",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\appsettings.json",
@@ -138,12 +154,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-17T22:18:46.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T22:18:46.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Carrito.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\PersonalizarSeguro\\Carrito.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\PersonalizarSeguro\\Carrito.cshtml",
@@ -151,12 +166,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\PersonalizarSeguro\\Carrito.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAADwvyUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T22:18:25.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T22:18:25.939Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\PersonalizarSeguro\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\PersonalizarSeguro\\Index.cshtml",
@@ -164,12 +178,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\PersonalizarSeguro\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-17T22:18:03.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T22:18:03.315Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PersonalizarSeguroController.cs",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Controllers\\PersonalizarSeguroController.cs",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Controllers\\PersonalizarSeguroController.cs",
@@ -177,12 +190,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Controllers\\PersonalizarSeguroController.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAA5wBUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T22:17:08.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T22:17:08.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Reclamos.cs",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Models\\Reclamos.cs",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Models\\Reclamos.cs",
@@ -194,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\SeguimientoReclamos\\Index.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\SeguimientoReclamos\\Index.cshtml",
@@ -202,12 +214,11 @@
               "RelativeToolTip": "SistemaVeterinaria\\Views\\SeguimientoReclamos\\Index.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-15T17:20:52.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T17:20:52.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "dbo.SeguimientoReclamos.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/ROBERTO/Proyecto/True/SqlTable/dbo.SeguimientoReclamos.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/ROBERTO/Proyecto/True/SqlTable/dbo.SeguimientoReclamos.sql",
@@ -216,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "dbo.Reclamos.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/ROBERTO/Proyecto/True/SqlTable/dbo.Reclamos.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/ROBERTO/Proyecto/True/SqlTable/dbo.Reclamos.sql",
@@ -225,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "SeguimientoReclamosController.cs",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Controllers\\SeguimientoReclamosController.cs",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Controllers\\SeguimientoReclamosController.cs",
@@ -237,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "SeguimientoReclamos.cs",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Models\\SeguimientoReclamos.cs",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Models\\SeguimientoReclamos.cs",
@@ -249,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programaci\u00F3n Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\Views\\SeguimientoReclamos\\Create.cshtml",
               "RelativeDocumentMoniker": "SistemaVeterinaria\\Views\\SeguimientoReclamos\\Create.cshtml",

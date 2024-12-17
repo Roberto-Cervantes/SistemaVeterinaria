@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\wwwroot\\images\\SobreNosotros.png",
+      "PackagePath": "staticwebassets\\images\\SobreNosotros.png"
+    },
+    {
       "Id": "C:\\Users\\Universo Industrial3\\Desktop\\Universidad\\Programación Avanzada en Web\\SistemaVeterinaria\\SistemaVeterinaria\\SistemaVeterinaria\\wwwroot\\images\\calculadora.png",
       "PackagePath": "staticwebassets\\images\\calculadora.png"
     },
